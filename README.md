@@ -1,2 +1,2 @@
-# Word-Guess_game
+# Word-Guess-Game
 Homework 3
