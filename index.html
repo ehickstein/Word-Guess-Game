@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Word Guess Game - Eric Hickstein</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1 id="headerText">Skyrim Hangman</h1>
+    </div>
+    <div id="mainContent">
+        <div id="playArea">
+            <div id="contentHeader">
+                <h1>Press  New Game  to play!</h1>
+                <h2>Incorrect guesses will appear below.</h2>
+            </div>
+            <div id="contentBody">
+                <h2 id="initialUnderscores">________</h2>
+                <div id="guessesDisplay">
+                    <h2 id="guessHeader">Guesses Remaining</h2>
+                    <h2 id="guessesRemaining"></h2>
+                </div>
+                <div id="incorrectGuessesDisplay">
+                    <h2>Incorrect Guesses</h2>
+                    <h2 id="incorrectLetters"></h2>
+                </div>
+                <div id="winsDisplay">
+                    <h2>Wins</h2>
+                    <h2 id="wins">0</h2>
+                </div>
+                <div id="lossesDisplay">
+                    <h2>Losses</h2>
+                    <h2 id="losses">0</h2>
+                </div>
+                <h2 id="playAgain">New Game</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
