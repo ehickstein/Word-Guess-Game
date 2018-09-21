@@ -19,6 +19,8 @@ window.onload = function(){
     var inputArray = [];
     var randomWord = "";
 
+    alert('Welcome! Press "New Game" to begin!');
+    
     function newGame(){
         gameOn = true;
         guessesRemaining = 10;
